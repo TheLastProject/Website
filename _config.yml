@@ -1,0 +1,132 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Sylvia van Os
+email: crystallod_chapelet@hackerchick.me
+description:
+  main: "Hello, I'm Sylvia. I like to hack on things."
+  sub: 'In my spare time I love to contribute to <abbr title="AKA: Open Source">Free Software</abbr>, play video games and listen to music (primarily Metal and Electronic).'
+main_links:
+  - name: GitHub
+    url: https://github.com/TheLastProject
+  - name: Twitter
+    url: https://twitter.com/SylvieLorxu
+  - name: Blog
+    url: /blog
+home:
+  presentations:
+    - name: Open Source 101
+      date: July 2019
+      url: https://vimeo.com/346198962
+  projects:
+    - name: Catima
+      description: An Android app to manage loyalty cards with.
+      github:
+        repo: TheLastProject/Catima
+      android:
+        package: me.hackerchick.catima
+    - name: Raise To Answer
+      description: Simply hold your phone to your ear to answer an incoming phone call. Or flip it upside down to decline. 
+      github:
+        repo: TheLastProject/RaiseToAnswer
+      android:
+        package: me.hackerchick.raisetoanswer
+#   articles:
+#    - title: Meeting Our Community - @TheLastProject
+#      url: https://mycroft.ai/blog/meeting-our-community-thelastproject/
+#      author: Mycroft
+#      subject: Me
+#      date: 2020-01-22
+#      description: interview from the Mycroft team
+#    - title: "Pext: new and improved AppImage"
+#      url: https://assassinate-you.net/posts/2018/10/pext-new-improved-appimage/
+#      author: TheAssassin
+#      subject: Pext
+#      date: 2018-10-08
+#    - title: "Pext: Python Extendable Tool"
+#      url: https://news.ycombinator.com/item?id=17772460
+#      author: Hacker News
+#      subject: Pext
+#      date: 2018-08-17
+#      description: reached frontpage and caused Pext to reach GitHub Daily Trending
+#    - title: Pext is an extendable Python-based tool that's a little hard to explain…
+#      url: http://www.omgubuntu.co.uk/2017/03/pext-python-extendable-tool
+#      author: OMGUbuntu
+#      subject: Pext
+#      date: 2017-03-30
+#    - title: AsteroidOS - Alpha 1.0 Release 
+#      url: https://florentrevest.github.io/2016/12/07/asteroidos-alpha
+#      author: Florent Revest
+#      subject: Me
+#      date: 2016-12-07
+#      description: see acknowledgements
+#    - title: How to Use Pass, the Ultimate Open-Source Password Manager
+#      url: http://www.makeuseof.com/tag/use-pass-ultimate-open-source-password-manager/
+#      author: MakeUseOf
+#      subject: Pext
+#      date: 2016-08-23
+#      description: see bottom of page
+  contacts:
+    - service: Matrix
+      url: https://matrix.to/#/@SylvieLorxu:matrix.org
+      username: "@SylvieLorxu:matrix.org"
+      keys:
+        - id: KHLSXPIZCL
+          fields:
+            Key: <code>tIzJ 2gcT ZsIF KL+L BRKq +l3o STV/ aMd8 k9TK OFe8 g9Q</code>
+            Type: Laptop (Fedora)
+        - id: TXTEDAYCBC
+          fields:
+            Key: <code>enn4 ioj4 Pvap SjZt 8iQ/ wh26 EPnW b4NY v17I dlu+ j0M</code>
+            Type: Phone (Fairphone 3)
+    - service: Telegram
+      url: https://t.me/lorxu
+      username: Lorxu
+    - service: Email (randomly generated name for anti-spam)
+      url: mailto:crystallod_chapelet@hackerchick.me
+      username: crystallod_chapelet@hackerchick.me
+        
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The eollowing items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

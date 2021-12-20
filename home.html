@@ -1,0 +1,85 @@
+---
+layout: default
+title: Home
+show_title: false
+permalink: /
+---
+{% if site.home.presentations.size > 0 %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Presentations</h1>
+        <div class="row">
+            {% for presentation in site.home.presentations %}
+            <div class="col-md-6">
+                <a href="{{ presentation.url }}"><img src="/assets/images/presentations/{{ forloop.index0 }}.png" alt="{{ presentation.name}} ({{ presentation.date }})" /></a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if site.home.projects.size > 0 %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Projects</h1>
+        <p>Currently, my main projects are the following. Check my <a href="https://github.com/TheLastProject">GitHub</a> to see everything I've been up to lately.</p>
+        <div class="row">
+            {% for project in site.home.projects %}
+            <div class="col-md-6">
+                <h3>{{ project.name }}</h3>
+                {% if project.github %}
+                <a href="https://github.com/{{ project.github.repo }}"><img src="https://gh-card.dev/repos/{{ project.github.repo }}.svg"></a>
+                {% endif %}
+                {% if project.android %}
+                <a href="https://f-droid.org/repository/browse/?fdid={{ project.android.package }}" target="_blank">
+                <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="90"/></a>
+                <a href="https://play.google.com/store/apps/details?id={{ project.android.package }}" target="_blank">
+                <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
+                {% endif %}
+                <p>{{ project.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if site.home.articles.size > 0 %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Articles</h1>
+        <ul>
+        {% for article in site.home.articles %}
+        <p><button class="btn btn-info btn-xs">{{ article.subject }}</button> {{ article.data }} <strong>{{ article.author }} <a href="{{ article.url }}">{{ article.title }}</strong> {{ article.description }}</a></p>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+{% if site.home.contacts.size > 0 %}
+<div class="row">
+    <div class="col-md-12">
+        <h1 id="contact">Contact me</h1>
+        <ul>
+        {% for contact in site.home.contacts %}
+        <li>
+            <strong>{{ contact.service }} - <a href="{{ contact.url }}">{{ contact.username }}</a></strong>
+            {% if contact.keys.size > 0 %}
+            <ul>
+                {% for key in contact.keys %}
+                <li>
+                    <strong>{{ key.id }}</strong>
+                    {% for field in key.fields %}
+                        <br/>{{ field[0] }}: {{ field[1] }}
+                    {% endfor %}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </li>
+        {% endfor %}
+
+        <p></p>
+        <p><em>When contacting me, please tell me how you found me, or you may be ignored.</em></p>
+    </div>
+</div>
+{% endif %}

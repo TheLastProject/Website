@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <meta name="description" content="{{ site.description.main }}">
+
+        <meta property="og:image" content="/assets/images/me.jpg" />
+  
+        <!-- Bootstrap -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="avatar"><a href="/"></a></div>
+                    </div>
+                    <div class="intro col-md-9">
+                        <div>
+                            <h1>{{ site.description.main }}</h1>
+                            <h3>{{ site.description.sub }}</h3>
+                            <h3>
+                                {% for link in site.main_links %}
+                                  <a href="{{ link.url }}">{{ link.name }}</a>
+                                  {% if forloop.last != true %} | {% endif %}
+                                {% endfor %}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                {% include breadcrumbs.html %}
+
+                {% if page.show_title != false %}
+                <h1>{{ page.title }}</h1>
+                {% endif %}
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>
