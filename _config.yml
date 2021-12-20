@@ -96,13 +96,24 @@ home:
           fields:
             Key: <code>enn4 ioj4 Pvap SjZt 8iQ/ wh26 EPnW b4NY v17I dlu+ j0M</code>
             Type: Phone (Fairphone 3)
+    - service: Wire
+      url: https://get.wire.com
+      username: "@sylviavanos"
+      keys:
+        - id: 48aad90f2e79c1b8
+          fields:
+            Key: <code>7922e155458d6af0338995b05021a5a21fdc36a2a71481c2c78cd3c9e87132ae</code>
+            Type: Laptop (Fedora)
+        - id: 512422e53b7ae938
+          fields:
+            Key: <code>4f8ee35b56ea716002c0fa747ae9a89d109a896e89e6e6363a30f277c2a5b8b3</code>
+            Type: Phone (Fairphone 3)
     - service: Telegram
       url: https://t.me/lorxu
       username: Lorxu
     - service: Email (randomly generated name for anti-spam)
       url: mailto:crystallod_chapelet@hackerchick.me
       username: crystallod_chapelet@hackerchick.me
-        
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
