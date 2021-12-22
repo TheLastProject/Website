@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>{{ page.title }} | {{ site.title }}</title>
-        <meta name="description" content="{{ site.description.main }}">
+        <meta name="description" content="{{ site.description }}">
 
         <meta property="og:image" content="/assets/images/me.jpg" />
   
@@ -23,11 +23,14 @@
                     </div>
                     <div class="intro col-md-9">
                         <div>
-                            <h1>{{ site.description.main }}</h1>
-                            <h3>{{ site.description.sub }}</h3>
+                            <h1>{{ site.description }}</h1>
+                            <h3>{{ site.subtitle }}</h3>
                             <h3>
                                 {% for link in site.main_links %}
                                   <a href="{{ link.url }}">{{ link.name }}</a>
+                                  {% if link.feed %}
+                                  <a href="{{ link.feed }}"><img src="/assets/images/Feed-icon.svg" /></a>
+                                  {% endif %}
                                   {% if forloop.last != true %} | {% endif %}
                                 {% endfor %}
                             </h3>

@@ -20,9 +20,8 @@
 
 title: Sylvia van Os
 email: crystallod_chapelet@hackerchick.me
-description:
-  main: "Hello, I'm Sylvia. I like to hack on things."
-  sub: 'In my spare time I love to contribute to <abbr title="AKA: Open Source">Free Software</abbr>, play video games and listen to music (primarily Metal and Electronic).'
+description: "Hello, I'm Sylvia. I like to hack on things."
+subtitle: 'In my spare time I love to contribute to <abbr title="AKA: Open Source">Free Software</abbr>, play video games and listen to music (primarily Metal and Electronic).'
 main_links:
   - name: GitHub
     url: https://github.com/TheLastProject
@@ -30,6 +29,7 @@ main_links:
     url: https://twitter.com/SylvieLorxu
   - name: Blog
     url: /blog
+    feed: /feed.xml
 home:
   presentations:
     - name: Open Source 101

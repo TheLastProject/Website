@@ -41,6 +41,10 @@ ul {
     margin: 0 auto;
 }
 
+.intro img {
+    height: 24px;
+}
+
 @media (min-width: 992px) {
     .intro {
         min-height: 230px;
