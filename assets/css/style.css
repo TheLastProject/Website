@@ -45,6 +45,10 @@ ul {
     height: 24px;
 }
 
+#posts img {
+    border: 10px solid;
+}
+
 @media (min-width: 992px) {
     .intro {
         min-height: 230px;

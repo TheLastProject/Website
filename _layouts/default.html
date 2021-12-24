@@ -42,7 +42,9 @@
                 {% if page.show_title != false %}
                 <h1>{{ page.title }}</h1>
                 {% endif %}
-                {{ content }}
+                <div id="{{ page.collection }}">
+                  {{ content }}
+                </div>
             </div>
         </div>
     </body>
