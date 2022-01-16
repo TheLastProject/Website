@@ -5,6 +5,8 @@ date: 2021-12-24
 categories: blog
 ---
 
+*Last updated: 2022-01-16*
+
 # The current state of my apps
 
 For those who don't know me, I am a Linux system administrator who codes a lot, mostly as a hobby. During my hobbies I wrote a few Android apps too, my most known one being [Catima](https://catima.app).
@@ -86,3 +88,11 @@ As I write this, I have just received another email from Google after I told the
 # Further reading
 
 If you want to see all my frustration, take a look at [Catima GitHub issue #439](https://github.com/TheLastProject/Catima/issues/439) and [all these tweets](https://twitter.com/SylvieLorxu/status/1471875608636444675).
+
+---
+
+# Other Google Review team mess-ups
+
+On January 16th, 2022, Google rejected an app update because of a lack of login info. Despite the fact that Catima is completely offline and Catima accounts literally do not exist.
+
+![Email stating Google rejected my app due to a lack of login info](/assets/images/blog/2021-12-24-google_play_hell/2022-16-01.jpg)
