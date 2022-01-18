@@ -5,7 +5,7 @@ date: 2021-12-24
 categories: blog
 ---
 
-*Last updated: 2022-01-16*
+*Last updated: 2022-01-18*
 
 # The current state of my apps
 
@@ -16,6 +16,8 @@ Catima is only available on Google Play and F-Droid and will probably remain exc
 But why isn't Catima on other app stores, like the Samsung Galaxy Store, Amazon AppStore or Huawei App Gallery, one may ask. Is there something wrong with those stores? The answer may surprise you:
 
 **The reason Catima isn't on alternative app stores isn't because there is something wrong with them, it's because there is something wrong with Google Play**.
+
+*Note: With this I meant that Google Play was taking way too much of my time and energy to also publish to other stores. Luckily, the situation seems to have died down for now and I may reconsider publishing to other stores. That would however require me being convinced that that store isn't as bad as [the](https://twitter.com/SylvieLorxu/status/1359461643768516608) [Huawei](https://twitter.com/SylvieLorxu/status/1374251557735256065) [AppGallery](https://twitter.com/SylvieLorxu/status/1377208451227598849).*
 
 # What is wrong with Google Play
 
@@ -96,3 +98,5 @@ If you want to see all my frustration, take a look at [Catima GitHub issue #439]
 On January 16th, 2022, Google rejected an app update because of a lack of login info. Despite the fact that Catima is completely offline and Catima accounts literally do not exist.
 
 ![Email stating Google rejected my app due to a lack of login info](/assets/images/blog/2021-12-24-google_play_hell/2022-16-01.jpg)
+
+On January 18th, the resubmission was approved 10 minutes after I received another email (which couldn't have been automatic as it was 2 days later) telling me the following: "We’re reaching out in response to your recent appeal regarding Play Console Requirements policy.  If your app was missing valid log-in credentials and you are now ready to provide them, you can resolve this issue on your own without waiting to hear back from a policy support agent.". Not very sensical, but for now, Catima is approved again.
