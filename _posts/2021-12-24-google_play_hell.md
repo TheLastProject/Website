@@ -101,4 +101,4 @@ On January 16th, 2022, Google rejected an app update because of a lack of login 
 
 On January 18th, the resubmission was approved 10 minutes after I received another email (which couldn't have been automatic as it was 2 days later) telling me the following: "We’re reaching out in response to your recent appeal regarding Play Console Requirements policy.  If your app was missing valid log-in credentials and you are now ready to provide them, you can resolve this issue on your own without waiting to hear back from a policy support agent.". Not very sensical, but for now, Catima is approved again.
 
-This happened again on [Januari 31st](https://twitter.com/SylvieLorxu/status/1488022557748076545), just 2 weeks later. This time the appeal was approved the very next day.
+This happened again on [January 31st](https://twitter.com/SylvieLorxu/status/1488022557748076545), just 2 weeks later. This time the appeal was approved the very next day.
