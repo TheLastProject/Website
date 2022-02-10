@@ -5,7 +5,7 @@ date: 2021-12-24
 categories: blog
 ---
 
-*Last updated: 2022-01-18*
+*Last updated: 2022-02-10*
 
 # The current state of my apps
 
@@ -100,3 +100,5 @@ On January 16th, 2022, Google rejected an app update because of a lack of login 
 ![Email stating Google rejected my app due to a lack of login info](/assets/images/blog/2021-12-24-google_play_hell/2022-16-01.jpg)
 
 On January 18th, the resubmission was approved 10 minutes after I received another email (which couldn't have been automatic as it was 2 days later) telling me the following: "We’re reaching out in response to your recent appeal regarding Play Console Requirements policy.  If your app was missing valid log-in credentials and you are now ready to provide them, you can resolve this issue on your own without waiting to hear back from a policy support agent.". Not very sensical, but for now, Catima is approved again.
+
+This happened again on [Januari 31st](https://twitter.com/SylvieLorxu/status/1488022557748076545), just 2 weeks later. This time the appeal was approved the very next day.
