@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sylvia van Os
-email: web.qvyny@sylviavanos.nl
 description: "Hello, I'm Sylvia. I like to hack on things."
 subtitle: 'In my spare time I love to contribute to <abbr title="AKA: Open Source">Free Software</abbr>, play video games and listen to music (primarily Metal and Electronic).'
 main_links:
@@ -110,8 +109,8 @@ home:
       url: https://t.me/lorxu
       username: Lorxu
     - service: Email (randomly generated name for anti-spam)
-      url: mailto:crystallod_chapelet@hackerchick.me
-      username: crystallod_chapelet@hackerchick.me
+      url: mailto:web.qvyny@sylviavanos.nl
+      username: web.qvyny@sylviavanos.nl
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
