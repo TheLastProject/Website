@@ -27,7 +27,7 @@
                             <h3>{{ site.subtitle }}</h3>
                             <h3>
                                 {% for link in site.main_links %}
-                                  <a href="{{ link.url }}">{{ link.name }}</a>
+                                  <a rel="me" href="{{ link.url }}">{{ link.name }}</a>
                                   {% if link.feed %}
                                   <a href="{{ link.feed }}"><img src="/assets/images/Feed-icon.svg" /></a>
                                   {% endif %}

@@ -27,6 +27,8 @@ main_links:
   - name: Blog
     url: /blog
     feed: /feed.xml
+  - name: Mastodon
+    url: https://social.tchncs.de/@SylvieLorxu
 home:
   presentations:
     - name: Open Source 101
