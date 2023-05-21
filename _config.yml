@@ -50,7 +50,7 @@ home:
         repo: TheLastProject/RaiseToAnswer
       android:
         package: me.hackerchick.raisetoanswer
-   articles:
+  articles:
     - title: "Die digitale Brieftasche | c’t uplink 46.7"
       url: https://www.youtube.com/watch?v=0CjAPZ_IWVA&t=1537s
       author: Heise
