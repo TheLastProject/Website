@@ -31,6 +31,9 @@ main_links:
     url: https://chaos.social/@SylvieLorxu
 home:
   presentations:
+    - name: F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!)
+      date: May 2023
+      url: https://fossandcrafts.org/episodes/057-f-droid.html
     - name: Open Source 101
       date: July 2019
       url: https://vimeo.com/346198962
@@ -47,41 +50,41 @@ home:
         repo: TheLastProject/RaiseToAnswer
       android:
         package: me.hackerchick.raisetoanswer
-#   articles:
-#    - title: Meeting Our Community - @TheLastProject
-#      url: https://mycroft.ai/blog/meeting-our-community-thelastproject/
-#      author: Mycroft
-#      subject: Me
-#      date: 2020-01-22
-#      description: interview from the Mycroft team
-#    - title: "Pext: new and improved AppImage"
-#      url: https://assassinate-you.net/posts/2018/10/pext-new-improved-appimage/
-#      author: TheAssassin
-#      subject: Pext
-#      date: 2018-10-08
-#    - title: "Pext: Python Extendable Tool"
-#      url: https://news.ycombinator.com/item?id=17772460
-#      author: Hacker News
-#      subject: Pext
-#      date: 2018-08-17
-#      description: reached frontpage and caused Pext to reach GitHub Daily Trending
-#    - title: Pext is an extendable Python-based tool that's a little hard to explain…
-#      url: http://www.omgubuntu.co.uk/2017/03/pext-python-extendable-tool
-#      author: OMGUbuntu
-#      subject: Pext
-#      date: 2017-03-30
-#    - title: AsteroidOS - Alpha 1.0 Release 
-#      url: https://florentrevest.github.io/2016/12/07/asteroidos-alpha
-#      author: Florent Revest
-#      subject: Me
-#      date: 2016-12-07
-#      description: see acknowledgements
-#    - title: How to Use Pass, the Ultimate Open-Source Password Manager
-#      url: http://www.makeuseof.com/tag/use-pass-ultimate-open-source-password-manager/
-#      author: MakeUseOf
-#      subject: Pext
-#      date: 2016-08-23
-#      description: see bottom of page
+   articles:
+    - title: "Die digitale Brieftasche | c’t uplink 46.7"
+      url: https://www.youtube.com/watch?v=0CjAPZ_IWVA&t=1537s
+      author: Heise
+      subject: Catima
+      date: 2023-01-21
+      description: german podcast positively reviewing Catima
+    - title: "Die digitale Brieftasche | c't 03/2023"
+      url: https://shop.heise.de/ct-03-2023/PDF
+      author: Heise
+      subject: Catima
+      date: 2023-01-14
+      description: magazine contains positive review of Catima and icon on cover
+    - title: "Pext: new and improved AppImage"
+      url: https://assassinate-you.net/posts/2018/10/pext-new-improved-appimage/
+      author: TheAssassin
+      subject: Pext
+      date: 2018-10-08
+    - title: "Pext: Python Extendable Tool"
+      url: https://news.ycombinator.com/item?id=17772460
+      author: Hacker News
+      subject: Pext
+      date: 2018-08-17
+      description: reached frontpage and caused Pext to reach GitHub Daily Trending
+    - title: Pext is an extendable Python-based tool that's a little hard to explain…
+      url: http://www.omgubuntu.co.uk/2017/03/pext-python-extendable-tool
+      author: OMGUbuntu
+      subject: Pext
+      date: 2017-03-30
+    - title: How to Use Pass, the Ultimate Open-Source Password Manager
+      url: http://www.makeuseof.com/tag/use-pass-ultimate-open-source-password-manager/
+      author: MakeUseOf
+      subject: Pext
+      date: 2016-08-23
+      description: see bottom of page
   contacts:
     - service: Matrix
       url: https://matrix.to/#/@SylvieLorxu:matrix.org
@@ -94,18 +97,6 @@ home:
         - id: BYIVUCWLNG
           fields:
             Key: <code>3cQZ zVuR FBoN ln/1 R2HN TeQR Fqom xq88 g3rw tr/P my0</code>
-            Type: Phone (Fairphone 3)
-    - service: Wire
-      url: https://get.wire.com
-      username: "@sylviavanos"
-      keys:
-        - id: 48aad90f2e79c1b8
-          fields:
-            Key: <code>7922e155458d6af0338995b05021a5a21fdc36a2a71481c2c78cd3c9e87132ae</code>
-            Type: Laptop (Fedora)
-        - id: 36ec0df8d54ad625
-          fields:
-            Key: <code>9e4a635ef63dcb035314de0093b0c9fad195927a0780e90cd4aeb3793ce7078e</code>
             Type: Phone (Fairphone 3)
     - service: Telegram
       url: https://t.me/lorxu
