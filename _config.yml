@@ -95,18 +95,6 @@ home:
           fields:
             Key: <code>3cQZ zVuR FBoN ln/1 R2HN TeQR Fqom xq88 g3rw tr/P my0</code>
             Type: Phone (Fairphone 3)
-    - service: Wire
-      url: https://get.wire.com
-      username: "@sylviavanos"
-      keys:
-        - id: 48aad90f2e79c1b8
-          fields:
-            Key: <code>7922e155458d6af0338995b05021a5a21fdc36a2a71481c2c78cd3c9e87132ae</code>
-            Type: Laptop (Fedora)
-        - id: 36ec0df8d54ad625
-          fields:
-            Key: <code>9e4a635ef63dcb035314de0093b0c9fad195927a0780e90cd4aeb3793ce7078e</code>
-            Type: Phone (Fairphone 3)
     - service: Telegram
       url: https://t.me/lorxu
       username: Lorxu
