@@ -31,9 +31,6 @@ main_links:
     url: https://chaos.social/@SylvieLorxu
 home:
   presentations:
-    - name: F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!)
-      date: May 2023
-      url: https://fossandcrafts.org/episodes/057-f-droid.html
     - name: Open Source 101
       date: July 2019
       url: https://vimeo.com/346198962
@@ -51,6 +48,12 @@ home:
       android:
         package: me.hackerchick.raisetoanswer
   articles:
+    - title: "F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!) | Foss & Crafts"
+      url: https://fossandcrafts.org/episodes/057-f-droid.html
+      author: FOSS & Crafts
+      subject: F-Droid
+      date: 2023-05-14
+      description: interview on a project I used to contribute to
     - title: "Die digitale Brieftasche | c’t uplink 46.7"
       url: https://www.youtube.com/watch?v=0CjAPZ_IWVA&t=1537s
       author: Heise
