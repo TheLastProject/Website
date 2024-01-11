@@ -48,9 +48,9 @@ home:
       android:
         package: me.hackerchick.raisetoanswer
   articles:
-    - title: "F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!) | Foss & Crafts"
+    - title: "F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!)"
       url: https://fossandcrafts.org/episodes/057-f-droid.html
-      author: FOSS & Crafts
+      author: FOSS and Crafts
       subject: F-Droid
       date: 2023-05-14
       description: interview on a project I used to contribute to
