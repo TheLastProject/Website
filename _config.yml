@@ -39,13 +39,19 @@ home:
       description: An Android app to manage loyalty cards with.
       github:
         repo: TheLastProject/Catima
-      android:
+      izzyondroid:
+        package: me.hackerchick.catima
+      f-droid:
+        package: me.hackerchick.catima
+      google_play:
         package: me.hackerchick.catima
     - name: Raise To Answer
       description: Simply hold your phone to your ear to answer an incoming phone call. Or flip it upside down to decline. 
       github:
         repo: TheLastProject/RaiseToAnswer
-      android:
+      f-droid:
+        package: me.hackerchick.raisetoanswer
+      google_play:
         package: me.hackerchick.raisetoanswer
   articles:
     - title: "F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!)"
