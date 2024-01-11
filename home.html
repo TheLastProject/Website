@@ -32,15 +32,15 @@ permalink: /
                 {% endif %}
                 {% if project.izzyondroid %}
                 <a href="https://apt.izzysoft.de/fdroid/index/apk/{{ project.izzyondroid.package }}" target="_blank">
-                <img src="/assets/images/repos/izzyondroid.png" alt="Get it on IzzyOnDroid" height="90"/></a>
+                <img class="repo_button" src="/assets/images/repos/izzyondroid.png" alt="Get it on IzzyOnDroid"/></a>
                 {% endif %}
                 {% if project.f-droid %}
                 <a href="https://f-droid.org/repository/browse/?fdid={{ project.f-droid.package }}" target="_blank">
-                <img src="/assets/images/repos/f-droid.png" alt="Get it on F-Droid" height="90"/></a>
+                <img class="repo_button" src="/assets/images/repos/f-droid.png" alt="Get it on F-Droid"/></a>
                 {% endif %}
                 {% if project.google_play %}
                 <a href="https://play.google.com/store/apps/details?id={{ project.google_play.package }}" target="_blank">
-                <img src="/assets/images/repos/google_play.png" alt="Get it on Google Play" height="90"/></a>
+                <img class="repo_button" src="/assets/images/repos/google_play.png" alt="Get it on Google Play"/></a>
                 {% endif %}
                 <p>{{ project.description }}</p>
             </div>

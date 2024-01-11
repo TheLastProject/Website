@@ -49,6 +49,11 @@ ul {
     border: 10px solid;
 }
 
+.repo_button {
+    height: 60px;
+    margin-top: 5px;
+}
+
 @media (min-width: 992px) {
     .intro {
         min-height: 230px;
