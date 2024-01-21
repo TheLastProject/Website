@@ -30,10 +30,7 @@ main_links:
   - name: Mastodon
     url: https://chaos.social/@SylvieLorxu
 home:
-  presentations:
-    - name: Open Source 101
-      date: July 2019
-      url: https://vimeo.com/346198962
+  presentations: []
   projects:
     - name: Catima
       description: An Android app to manage loyalty cards with.
