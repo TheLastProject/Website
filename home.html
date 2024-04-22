@@ -42,6 +42,10 @@ permalink: /
                 <a href="https://play.google.com/store/apps/details?id={{ project.google_play.package }}" target="_blank">
                 <img class="repo_button" src="/assets/images/repos/google_play.png" alt="Get it on Google Play"/></a>
                 {% endif %}
+                {% if project.github and project.github.apk %}
+                <a href="https://github.com/{{ project.github.repo }}/releases" target="_blank">
+                <img class="repo_button" src="/assets/images/repos/github.png" alt="Get the APK from GitHub"/></a>
+                {% endif %}
                 <p>{{ project.description }}</p>
             </div>
             {% endfor %}
