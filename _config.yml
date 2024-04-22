@@ -36,27 +36,29 @@ home:
       description: An Android app to manage loyalty cards with.
       github:
         repo: TheLastProject/Catima
+        apk: true
       izzyondroid:
         package: me.hackerchick.catima
-      f-droid:
-        package: me.hackerchick.catima
+#     f-droid:
+#       package: me.hackerchick.catima
       google_play:
         package: me.hackerchick.catima
     - name: Raise To Answer
       description: Simply hold your phone to your ear to answer an incoming phone call. Or flip it upside down to decline. 
       github:
         repo: TheLastProject/RaiseToAnswer
-      f-droid:
-        package: me.hackerchick.raisetoanswer
+        apk: true
+#     f-droid:
+#       package: me.hackerchick.raisetoanswer
       google_play:
         package: me.hackerchick.raisetoanswer
   articles:
-    - title: "F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!)"
-      url: https://fossandcrafts.org/episodes/057-f-droid.html
-      author: FOSS and Crafts
-      subject: F-Droid
-      date: 2023-05-14
-      description: interview on a project I used to contribute to
+#   - title: "F-Droid (featuring Sylvia van Os & Hans-Christoph Steiner!)"
+#     url: https://fossandcrafts.org/episodes/057-f-droid.html
+#     author: FOSS and Crafts
+#     subject: F-Droid
+#     date: 2023-05-14
+#     description: interview on a project I used to contribute to
     - title: "Die digitale Brieftasche | c’t uplink 46.7"
       url: https://www.youtube.com/watch?v=0CjAPZ_IWVA&t=1537s
       author: Heise
