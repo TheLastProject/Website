@@ -106,9 +106,6 @@ home:
           fields:
             Key: <code>3cQZ zVuR FBoN ln/1 R2HN TeQR Fqom xq88 g3rw tr/P my0</code>
             Type: Phone (Fairphone 3)
-    - service: Telegram
-      url: https://t.me/lorxu
-      username: Lorxu
     - service: Email (randomly generated name for anti-spam)
       url: mailto:web.qvyny@sylviavanos.nl
       username: web.qvyny@sylviavanos.nl
