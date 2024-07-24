@@ -94,6 +94,9 @@ home:
       date: 2016-08-23
       description: see bottom of page
   contacts:
+    - service: XMPP
+      url: xmpp:sylvia@chat.retro-freedom.nz
+      username: sylvia@chat.retro-freedom.nz
     - service: Matrix
       url: https://matrix.to/#/@SylvieLorxu:matrix.org
       username: "@SylvieLorxu:matrix.org"
